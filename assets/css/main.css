@@ -1,0 +1,183 @@
+html {
+  font-size: 18px;
+  scroll-behavior: smooth;
+}
+
+
+
+.header-mobile {
+  color: #272D4E;
+}
+
+.navbar-brand img {
+  max-height: 60px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #000;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  color: #2f7ad2;
+}
+li{
+  list-style-type:none;
+}
+
+.custom-hamburger-btn {
+  border: none;
+}
+
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  padding-right: 2.5%;
+  cursor: pointer;
+}
+
+.line-1,
+.line-2,
+.line-3 {
+  width: 30px;
+  height: 4px;
+  background-color: rgb(22, 21, 21);
+  margin: 2.5px 0;
+  transition: 0.4s;
+}
+
+/* Toggle class to  change the state of hambuger icon cross*/
+.toggle .line-1 {
+  transform: translateY(12px) rotate(135deg);
+}
+
+.toggle .line-2 {
+  opacity: 0;
+}
+
+.toggle .line-3 {
+  transform: translateY(-6.89px) rotate(-135deg);
+}
+
+.hero-section {
+  height: 88vh;
+  color: #272D4E;
+}
+.banner-text h1{
+ padding-top: 5.9rem;
+ font-weight: 900;
+}
+
+.btn-blue {
+  background: #2f7ad2;
+  color: #fff;
+  border-radius: 30px;
+  transition: ease-in 0.3s;
+  margin:auto ;
+}
+#card-img-top{
+  width: 50px;
+  height: 57px;
+  margin: 20px 20px;
+}
+.card{
+  margin: 20px 0px;
+}
+.image-text{
+  float: left;
+}
+
+
+.text{
+  background: #FFFFFF;
+  box-shadow: 0px 9px 20px rgba(215, 228, 249, 0.5);
+  border-radius: 15px;
+  position: absolute;
+  padding: 20px 0px;
+  bottom: -70px;
+  width: 65%;
+  left: 67px;
+}
+
+.pt-lg {
+  padding-top: 3rem !important;
+}
+
+.announcement h5{
+  font-size: 15px;
+  font-weight: 900;
+}
+.view-link{
+  font-size: 10px;
+}
+.media-section img{
+  padding: 20px 0px;
+}
+
+#concert-title{
+  padding: 75px 0px;
+}
+/* .tab-btn{
+  color: #299EF3 !important;
+} */
+.active{
+  color: #299EF3 !important;
+}
+a{
+  color: black !important;
+}
+
+
+
+/* .testimonial {
+  color: #000000;
+} */
+
+.card-body img{
+  display: block;
+}
+.card-body p{
+ font-size: 15px;
+}
+.hero-section-two{
+  width: 84%;
+  height: 90vh;
+  background-image: url('../images/image\ 20.png');
+  background-repeat: no-repeat;
+  background-size: content;
+  margin: auto;
+  color: white;
+}
+.card-title{
+  float: left;
+}
+.card-text{
+  float: right
+}
+.card-body img{
+  border-radius: 50%;
+ 
+}
+.card-image{
+  
+  background-image: url('../images/image\ 24\ \(1\).png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90%;
+  margin: 20px 0px;
+  color: white;
+}
+span .fa-youtube-play{
+  color: #f43757;
+  font-size: 60px;
+  padding-top: 10%;
+}
+
+.footer {
+  background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+  color: white;
+}
+
+ /*==================== media-query-section ====================*/
